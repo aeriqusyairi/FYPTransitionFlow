@@ -2,8 +2,11 @@ package fyptransitionflow.controller;
 
 import fyptransitionflow.ControlledScreen;
 import fyptransitionflow.ScreensController;
+import fyptransitionflow.constant.ScreenConstant;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
 /**
@@ -17,6 +20,11 @@ public class LoginController implements Initializable, ControlledScreen {
     
     public void setScreenParent(ScreensController screenParent){
         myController = screenParent;
+    }
+    
+    @FXML
+    public void handleLogin(ActionEvent event){
+            
     }
     
     /**

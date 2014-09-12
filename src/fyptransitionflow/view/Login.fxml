@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
@@ -25,8 +26,16 @@
             <HBox alignment="CENTER" prefHeight="40.0" prefWidth="600.0">
                <children>
                   <Label text="Password: " />
-                  <TextField id="txtPassword" />
+                  <PasswordField id="txtPassword" />
                </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="41.0" prefWidth="521.0">
+               <children>
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#handleLogin" text="Login" />
+               </children>
+               <VBox.margin>
+                  <Insets left="195.0" right="195.0" />
+               </VBox.margin>
             </HBox>
          </children>
       </VBox>
