@@ -20,13 +20,13 @@
             <HBox alignment="CENTER" prefHeight="35.0" prefWidth="600.0">
                <children>
                   <Label text="Username: " />
-                  <TextField id="txtUsername" />
+                  <TextField fx:id="txtUsername" />
                </children>
             </HBox>
             <HBox alignment="CENTER" prefHeight="40.0" prefWidth="600.0">
                <children>
                   <Label text="Password: " />
-                  <PasswordField id="txtPassword" />
+                  <PasswordField fx:id="txtPassword" />
                </children>
             </HBox>
             <HBox alignment="CENTER_RIGHT" prefHeight="41.0" prefWidth="521.0">
