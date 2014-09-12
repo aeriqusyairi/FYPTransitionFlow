@@ -37,6 +37,7 @@
                   <Insets left="195.0" right="195.0" />
                </VBox.margin>
             </HBox>
+            <Label fx:id="lblLoginError" />
          </children>
       </VBox>
    </children>
